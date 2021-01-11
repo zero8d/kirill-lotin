@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./img/favico.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lotin-Kirill</title>
+  </head>
+  <body>
+    <div id="in-out">
+      <div id="inputContainer">
+        <textarea
+          spellcheck="false"
+          id="text-input"
+          maxwidth="500px"
+          minwidth="500px"
+          placeholder="✏ Bu yerga yozing..."
+        ></textarea>
+      </div>
+      <div id="outputContainer">
+        <textarea
+          id="text-output"
+          placeholder="✏ Бу ерга ёзинг..."
+          spellcheck="false"
+        ></textarea>
+        <img
+          class="img"
+          src="./img/clipboard.svg"
+          alt="clipboard"
+          id="copy-button"
+          width="80px"
+          height="80px"
+        />
+      </div>
+    </div>
+
+    <div id="menu-modal" style="top: -200%">
+      <ul>
+        <li><a href="https://t.me/zero8d/"><img src="./img/Telegram.svg" alt="">Dasturchi</li>
+        <li><a href="https://t.me/zero8dchannel"><img src="./img/Telegram.svg" alt="">Kanal</li>
+        <li><a href="https://github.com/zero8d"><img src="./img/github.svg">Github</a></li>
+        <li><a href="https://portfolio.zero8d.xyz"><img src="./img/website.svg">Yana</a></li>
+      </ul>
+    </div>
+    <div id="downb-c"><img src="./img/down.svg" alt="menu" id="downb" /></div>
+    <div
+      id="menu-modal-back"
+      style="z-index: -1; animation-duration: 1s; opacity: 0"
+    ></div>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
